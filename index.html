@@ -7,6 +7,7 @@
         <style>
             h1 {
                 font-family: sans-serif;
+                margin: 20px;
             }
 
             #container {
@@ -17,26 +18,26 @@
             #container > div {
                 background-color: cadetblue;
                 font-size: 20px;
-                margin: 20px;
+                margin: 10px;
                 padding: 20px;
                 width: 200px;
             }
         </style>
     </head>
     <body>
-        <nav class="navbar bg-body-tertiary">
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                Bootstrap
+                Oliver Dietrich
               </a>
             </div>
-            <h1>Topics of interest</h1>
-            <div id="container">
-                <div>A</div>
-                <div>B</div>
-                <div>C</div>
-            </div>
-          </nav>
+        </nav>
+        <h1>Topics of interest</h1>
+        <div id="container">
+            <div>A</div>
+            <div>B</div>
+            <div>C</div>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
